@@ -1,0 +1,224 @@
+*{
+font-family:sofia sans;
+}
+
+
+body{
+    background-color: #C5CBE5;
+    text-transform: none; 
+}
+
+header{
+        padding-top: 10px;
+        width: 100%;
+        height: auto;
+        background: #23347D;  
+}
+
+footer{
+        width: 100%;
+        height:3 em;
+        background: #23347D;
+        margin:auto;
+        padding-top: 00px;
+        display: flex;
+        text-align: center;
+}
+.textofooter{
+    text-align:center;
+    position: relative;
+    color: rgba(244, 244, 244, 1);
+    text-transform: none;
+    margin: 0%;
+    width: 100%;
+    }
+    
+ul li a{
+    text-decoration: none;
+    color: rgba(244, 244, 244, 1);
+        line-break: auto;
+        overflow-wrap: initial;
+        white-space: break-spaces;
+        text-rendering: geometricPrecision;
+        font-size: 16px;
+        font-family: "Sofia Sans Condensed";
+        font-style: normal;
+        font-weight: 400;
+}
+.nav{ 
+    background: #23347D;
+    display: flex;
+}
+input {                        /*no muestra el botón de menu */
+    display: none;     
+}
+label {                      
+    display:none;
+}
+
+ul{
+    display: flex;
+    justify-content:space-around;
+    margin-top:0;
+    padding: 0;
+}
+li {     
+    display: flex;
+    justify-content: center;     
+    width: 160px;
+    height: 52px;
+    background: #23347D;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+}
+
+ul li{
+    width: 160px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+    margin: 40px;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+li:hover {                       
+    filter:invert(100%);
+}
+.saludmental{
+    left: 22px;
+    width: 400px;
+    height: 250px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%,rgba(255, 255, 255, 0.1) 0%), url(https://design.penpot.app/assets/by-file-media-id/61b3a512-985c-80ca-8004-397302b6b26e) no-repeat center center / cover;
+    border: 1px solid #C5CBE5;
+    border-radius: 0px;
+}
+
+.nav{ 
+    background: #23347D;
+    display: flex;
+}
+input {                        /*no muestra el botón de menu */
+    display: none;     
+}
+label {                      
+    display:none;
+}
+
+ul{
+    display: flex;
+    justify-content:space-around;
+    margin-top:0;
+    padding: 0;
+}
+li {     
+    display: flex;
+    justify-content: center;     
+    width: 160px;
+    height: 52px;
+    background: #23347D;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+}
+.ol{    
+    display: flex;
+    justify-content: center;     
+    width: 200px;
+    height: 100px;
+    background: #23347D;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+}
+ul li{
+    width: 160px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+    margin: 40px;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+li:hover {                       
+    filter:invert(100%);
+}
+
+.TituloPrincipal{
+        text-align: center;
+        color: rgba(214, 200, 200, 1);
+        text-transform: none;
+        }
+
+.TituloFooter{
+    text-align:center;
+    color: rgba(244, 244, 244, 1);
+    text-transform: none;
+}
+
+.contenedorflex {
+        width: 100%;
+        text-align: center;
+}
+.contenedorflex{
+    display: flex;
+    justify-content:space-around
+}
+.textoflex{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-style normal;
+}
+.fototerapia{
+    background-color: rgb(229, 188, 41);
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow:10px 10px 5px rgb(90, 91, 91);
+    text-align: center;
+}
+
+
+@media (max-width:600px) {
+nav ul li{
+        display: flex;
+        justify-content: center;
+}
+.ol{
+    display: flex;
+    justify-content: center;
+}
+.saludmental{
+    display:flex;
+    justify-content:center;
+}
+.ol{
+    display: flex;
+    justify-content: center;
+}
+.textoflex{
+    display: block;
+    justify-content: center;
+}
+.cajaservicios{
+    display: block;
+    justify-content: center;
+}
+.contenedorflex{
+    display: flex;
+    justify-content:center;
+}
+
+.fototerapia{
+    display: block;
+    justify-content: center;
+}
+
+}
+
+
